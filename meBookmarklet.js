@@ -17,8 +17,7 @@ var booky = function () {
         __MEFrame.style.cssText = __MEFrame.basicCSS + "width:50px;height:50px";
         __MEFrame.open = false;
         var d = document.createElement('div');
-        d.style.cssText = 'width:50px;height:50px;position:fixed;top:0;0;z-index:2147483647;'+ ['-webkit-', '-moz-', '-ms-', '-o-', '',''].join('user-select:none;');
-        console.log(d.style.cssText);
+        d.style.cssText = 'width:50px;height:50px;position:fixed;top:0;0;z-index:2147483647;';
         d.addEventListener('click',function () {
             var s = __MEFrame.style;
             if (__MEFrame.open) {
